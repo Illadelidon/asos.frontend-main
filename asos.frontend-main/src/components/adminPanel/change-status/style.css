@@ -1,0 +1,33 @@
+.my-status
+{
+   flex-direction: column;
+   display: flex;
+   margin: 0 auto;
+
+   gap: 20px;
+}
+
+.my-status h3
+{
+   text-align: center;
+}
+
+.custum-select
+{
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.margin10
+{
+   text-align: center;
+}
+
+.Name-Orders
+{
+   font-family: 'Lobster', sans-serif; /* Використовуємо шрифт Lobster */
+   font-size: 2rem; /* Розмір шрифту */
+   color: #288c21;
+}

@@ -1,0 +1,163 @@
+.Second-Container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 58%;
+}
+
+.Just-text
+{
+    width: max-content;
+    height: max-content;
+    text-align: left;
+}
+
+.Just-text p
+{
+    color: #0D0D0D;
+    font-family: "Marbley Free", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Carts-Container
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+}
+
+.Cart-Favorite
+{
+    height: 250px;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.Frame92
+{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.Frame87
+{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 2px solid #707070;
+
+    /* decorative shadows/green */
+    box-shadow: 4px 8px 0px 0px #C8F954;
+}
+
+.Frame87 img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Frame91
+{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.Name-Favorite
+{
+    color: #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Brand-Favorite
+{
+    color: #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Brand-Favorite span
+{
+    color: #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.Price-Favorite
+{
+    margin-top: 30px;
+    color:  #0D0D0D;
+    font-family:"Outfit", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Frame96
+{
+    margin-left: 100px;
+    display: flex;
+    width: 129px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.button-favorite
+{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Frame96 span
+{
+    color: #000;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#click:hover
+{
+    fill: red; /* Золотий колір при наведенні */
+    stroke: black;
+}

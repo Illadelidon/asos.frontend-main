@@ -1,0 +1,111 @@
+.basic-container
+{
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    background: #0D0D0D;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container
+{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.Frame193
+{
+    margin-top: 40px;
+    width: max-content;
+    height: max-content;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.Frame193 svg
+{
+    width: 123.942px;
+    height: 19.344px;
+}
+
+.Frame192
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: max-content;
+}
+
+.Link-clothes,
+.Link-face
+{
+    color: #C8F954;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Link-clothes:hover,
+.Link-face:hover
+{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.Link-clothes:active,
+.Link-face:active
+{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(200, 249, 84, 0.6);
+}
+
+.Frame190
+{
+    margin-left:50px;
+    margin-top: 23px;
+    width: 863px;
+}
+
+.Frame69
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.regButton
+{
+    display: inline-block;
+    padding: 5px;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.regButton-3
+{
+    display: flex;
+    padding: 5px;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    font-size: 23px;
+    color: red;
+    font-weight: bold;
+}
+
+
+.regButton:active,
+.regButton-3:active,
+.Simply-Button:active
+{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(200, 249, 84, 0.6);
+}

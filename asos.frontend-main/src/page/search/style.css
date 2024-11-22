@@ -1,0 +1,30 @@
+td
+{
+    position: relative;
+    overflow: visible; /* Дозволяємо елементам вилазити за межі комірки */
+}
+
+.custom
+{
+    transition: transform 0.3s ease-in-out;
+    position: relative; /* Потрібно для правильного роботи z-index */
+}
+
+.custom:hover
+{
+    cursor: pointer;
+    transform: scale(1.5); /* Збільшуємо до 150% */
+    z-index: 2; /* Виводимо поверх інших елементів */
+}
+
+#Error-Found
+{
+    margin-top: 100px;
+    font-family: 'Lobster', cursive; /* Використовуємо шрифт Lobster */
+    font-size: 2rem; /* Розмір шрифту */
+    color: #ff475c; /* Задаємо яскравий колір */
+    text-align: center; /* Вирівнюємо по центру */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Додаємо тінь для об'єму */
+
+}
+

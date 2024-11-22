@@ -1,0 +1,992 @@
+.Log-In-eye-on
+{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background: rgb(255, 255, 255);
+}
+
+.bg
+{
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+}
+
+.urbncore
+{
+    position: absolute;
+    width: max-content;
+    height: 18px;
+    top:93%;
+    left: 85%;
+}
+
+p
+{
+    color: rgb(13, 13, 13);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.picture-log-in
+{
+    width: 100%;
+    height: 100%;
+    background: url("../../../../../public/picture_log.png");
+    background-size: cover;
+}
+
+.log-in-registr{
+    position: absolute;
+    width: 720px;
+    height: 934px;
+    left: 35%;
+    top: 49px;
+}
+
+.Rectangle6
+{
+    position: absolute;
+    width: 720px;
+    height: 929px;
+    left: 0;
+    top: 5px;
+    border-radius: 4px;
+    backdrop-filter: blur(18px);
+    background: rgba(89, 89, 89, 0.5);
+}
+
+.Frame28
+{
+    position: absolute;
+    width: 630px;
+    left: 45px;
+    top: 55.5px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.Frame20
+{
+    position: static;
+    width: 630px;
+    height: 316px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 28px;
+}
+
+.Frame19
+{
+
+    position: static;
+    width: 630px;
+    height: 159px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 54px;
+    align-self: stretch;
+}
+
+.Frame12
+{
+    position: static;
+    width: 630px;
+    height: 55px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    /* Inside Auto Layout */
+    /*flex: none;*/
+    /*order: 0;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+    /*margin: 54px 0px;*/
+}
+
+#Frame4
+{
+    width: 315px;
+    height: 55px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+
+    border: 2px solid rgb(241, 241, 241);
+    opacity: 0.5;
+}
+
+#Frame4:focus
+{
+    opacity: 2;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.LogIn
+{
+    position: static;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-transform: none; /* Додаємо цю строку */
+
+}
+
+.Frame3
+{
+    /* Frame 3 */
+    position: static;
+    width: 315px;
+    height: 55px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    border: 2px solid rgb(241, 241, 241);
+    opacity: 0.5;
+}
+
+.Frame3:focus
+{
+    opacity: 2;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.SignUp{
+
+    position: static;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-transform: none; /* Додаємо цю строку */
+}
+
+.Frame9{
+    position: static;
+    width: 488.26px;
+    height: 50px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    gap: 12px;
+
+}
+
+.WelcomeBackTo
+{
+    position: absolute;
+    width: 327px;
+    height: 50px;
+
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+}
+
+.groupLetter
+{
+    position: absolute;
+    top:110px;
+    right: 11%;
+    width: 155px;
+    height: 50px;
+}
+
+.Frame14
+{
+    /* Frame 14 */
+    position: static;
+    width: 600px;
+    height: 129px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+}
+
+.LogInWithGoogle
+{
+    /* Log In with Socials */
+    position: static;
+    width: 600px;
+    height: 35px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    /* Inside Auto Layout */
+    align-self: stretch;
+    /*margin-top: 24px;*/
+
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+}
+
+.Frame13
+{
+    /* Frame 13 */
+    position: static;
+    width: 600px;
+    height: 70px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* Inside Auto Layout */
+
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 24px;
+}
+
+/*.Button_socials1{*/
+
+/*    position: static;*/
+/*    width: 180px;*/
+/*    height: 70px;*/
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 20px 10px 20px 10px;*/
+
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    !*margin: 0px 30px;*!*/
+
+/*    box-sizing: border-box;*/
+/*    border: 2px solid rgb(13, 13, 13);*/
+/*    border-radius: 50px;*/
+
+/*    box-shadow: 4px 8px 0px 0px rgb(0, 0, 0);*/
+/*    background: rgb(245, 245, 245);*/
+/*}*/
+
+/*.Icon-Google{*/
+/*    position: static;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+
+/*    !*margin: 0px 15px;*!*/
+/*}*/
+
+/*.Text-Button_Google*/
+/*{*/
+/*    !* Apple (Button_socials) *!*/
+/*    position: static;*/
+/*    width: 78px;*/
+/*    height: 30px;*/
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 20px 10px 20px 10px;*/
+
+
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 1;*/
+/*    margin-left: 15px;*/
+
+/*    color: rgb(0, 0, 0);*/
+/*    font-family:"Outfit", sans-serif, "Marbley Free", sans-serif;*/
+/*    font-size: 24px;*/
+/*    font-weight: 500;*/
+/*    line-height: 30px;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.Button_socials2*/
+/*{*/
+/*    position: static;*/
+/*    width: 180px;*/
+/*    height: 70px;*/
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 20px 10px 20px 10px;*/
+
+
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 1;*/
+/*    margin: 0px 30px;*/
+
+/*    box-sizing: border-box;*/
+/*    border: 2px solid rgb(13, 13, 13);*/
+/*    border-radius: 50px;*/
+
+/*    box-shadow: 4px 8px 0px 0px rgb(0, 0, 0);*/
+/*    background: rgb(245, 245, 245);*/
+/*}*/
+
+/*.Icon-Apple*/
+/*{*/
+/*    !* Social Icons *!*/
+/*    position: static;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 0;*/
+/*    flex-grow: 0;*/
+/*    margin: 0px 15px;*/
+/*}*/
+
+/*.Text-Button_Apple*/
+/*{*/
+/*    !* Apple (Button_socials) *!*/
+/*    position: static;*/
+/*    width: 64px;*/
+/*    height: 30px;*/
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 20px 10px 20px 10px;*/
+
+
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 1;*/
+/*    margin-right: 15px;*/
+
+/*    color: rgb(0, 0, 0);*/
+/*    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;*/
+/*    font-size: 24px;*/
+/*    font-weight: 500;*/
+/*    line-height: 30px;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.Button_socials3*/
+/*{*/
+/*    !* Button_socials *!*/
+/*    position: static;*/
+/*    width: 180px;*/
+/*    height: 70px;*/
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 20px 10px 20px 10px;*/
+
+
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 2;*/
+/*    flex-grow: 0;*/
+
+/*    box-sizing: border-box;*/
+/*    border: 2px solid rgb(13, 13, 13);*/
+/*    border-radius: 50px;*/
+
+/*    box-shadow: 4px 8px 0px 0px rgb(0, 0, 0);*/
+/*    background: rgb(245, 245, 245);*/
+/*}*/
+
+/*.Icon-Facebook*/
+/*{*/
+/*    position: static;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 0;*/
+/*    flex-grow: 0;*/
+/*    margin: 0px 15px;*/
+/*}*/
+
+/*.Text-Button_Facebook{*/
+/*    !* Apple (Button_socials) *!*/
+/*    position: static;*/
+/*    width: 105px;*/
+/*    height: 30px;*/
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 20px 10px 20px 10px;*/
+
+
+/*    !* Inside Auto Layout *!*/
+/*    flex: none;*/
+/*    order: 1;*/
+/*    flex-grow: 0;*/
+/*    margin-right: 15px;*/
+
+/*    color: rgb(0, 0, 0);*/
+/*    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;*/
+/*    font-size: 24px;*/
+/*    font-weight: 500;*/
+/*    line-height: 30px;*/
+/*    text-align: left;*/
+/*}*/
+
+.Frame27
+{
+    display: flex;
+    width: 428px;
+    height: 459px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+
+    position: static;
+    order: 1;
+}
+
+.Frame26
+{
+    position: static;
+    width: 428px;
+    height: 341px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 28px;
+    align-self: stretch;
+}
+
+.Frame57
+{
+    /* Frame 57 */
+    position: static;
+    width: 428px;
+    height: 463px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    gap: 64px;
+}
+
+.Frame54
+{
+    /* Frame 54 */
+    position: static;
+    width: 428px;
+    height: 285px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    gap: 28px;
+}
+
+.SignUpWithEmail-Div
+{
+    /* or Sign Up with Email */
+    position: static;
+    width: 428px;
+    height: 35px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Inside Auto Layout */
+    flex: none;
+    align-self: stretch;
+}
+
+.SignUpWithEmail-Text
+{
+    color: rgb(245, 245, 245);
+    font-family:"Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+}
+
+.Frame53
+{
+    /* Frame 53 */
+    position: static;
+    width: 428px;
+    height: 222px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    gap: 24px;
+}
+
+.Frame11-2
+{
+    /* Frame 11 */
+    position: static;
+    width: 428px;
+    height: 108px;
+    /* Auto layout */
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: flex-start;*/
+    /*align-items: flex-start;*/
+
+    /* Inside Auto Layout */
+    flex: none;
+}
+
+.Label-FirstName
+{
+    /* First Name */
+    position: static;
+    width: 69px;
+    height: 18px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+
+    color: rgba(245, 245, 245, 0.7);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.Input-FirstName
+{
+    /* log in google */
+    position: static;
+    width: 428px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px 20px 18px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.ErorButton-Div-Ok
+{
+
+    width: 23px;
+    height: 23px;
+    /* Inside Auto Layout */
+    flex: none;
+
+    position: relative;
+    top: -49px;
+    left: 380px;
+
+}
+
+.ErorButton-Div-False
+{
+
+    width: 23px;
+    height: 23px;
+    /* Inside Auto Layout */
+    flex: none;
+
+    position: relative;
+    top: -49px;
+    left: 380px;
+    cursor: pointer;
+}
+
+.chekButton
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 2px;
+}
+
+.ErorButton-Div-False:hover+ .Frame33-3
+{
+    display: block; /* Показати при наведенні мишки на чек кнопку */
+}
+
+.Frame33-3
+{
+    /* Frame 33 */
+    position: absolute;
+    width: 406px;
+    height: 50px;
+    /* Inside Auto Layout */
+    left: 530px;
+    top:430px;
+    display: none;
+}
+
+.Frame32
+{
+    /* Frame 32 */
+    position: static;
+    width: 371px;
+    height: 50px;
+    left: 24px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+
+    background: rgb(46, 56, 162);
+    top:-19px;
+    gap: 10px;
+}
+
+.Text-Error
+{
+    /* Please check your email. Maybe there’s a mistake. */
+    position: static;
+    width: 351px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.Polygon1
+{
+    top:10px;
+    position: absolute;
+}
+
+.Frame16
+{
+    /* Frame 16 */
+    position: static;
+    width: 428px;
+    height: 95px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+}
+
+.Label-LastName
+{
+    /* First Name */
+    position: static;
+    width: 69px;
+    height: 18px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+
+    color: rgba(245, 245, 245, 0.7);
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.Input-LastName
+{
+    /* log in google */
+    position: static;
+    width: 428px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px 20px 18px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.ErorButton-Div-False2,
+.ErorButton-Div-Ok-2
+{
+    /* Error */
+    position: absolute;
+    width: 24px;
+    height: 24.92px;
+    /* Inside Auto Layout */
+    flex: none;
+
+    top: 573px;
+    left: 480px;
+}
+
+.ErorButton-Div-False2:hover+ .Frame33-2
+{
+    display: block; /* Показати при наведенні мишки на чек кнопку */
+}
+
+.Polygon3-3
+{
+    top:8px;
+    left: -20px;
+    position: absolute;
+}
+
+
+.Frame33-2
+{
+    position: absolute;
+    width: 406px;
+    height: 50px;
+    /* Inside Auto Layout */
+    left: 512px;
+    top: 530px;
+    display: none;
+
+}
+
+.Polygon2
+{
+    top:40px;
+    position: absolute;
+}
+
+.Frame32-2
+{
+    position: absolute;
+    width: 371px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    left: 25px;
+
+    top:30px;
+
+    background: rgb(46, 56, 162);
+}
+
+.Frame30
+{
+    /* Frame 30 */
+    position: static;
+    width: 100%;
+    height: 114px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    flex: none;
+    order: 1;
+
+}
+
+.Div-Button-Next-Step
+{
+    /* Button_action */
+    position: static;
+    width: 269px;
+    height: 70px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    align-self: stretch;
+}
+
+.Button-Next-Step
+{
+    /* Button_action */
+    position: static;
+    width: 269px;
+    height: 70px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    gap: 15px;
+
+    border: 2px solid rgb(13, 13, 13);
+    border-radius: 50px;
+
+    box-shadow: 4px 8px 0px 0px rgb(0, 0, 0);
+    background: rgb(200, 249, 84);
+
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif, "Marbley Free", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Button-Next-Step:hover
+{
+    background: rgb(151, 190, 57);
+}
+
+.Steps1
+{
+    /* Steps: 1 out of 2 */
+    position: static;
+    width: 269px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+
+    margin-top: 20px;
+}

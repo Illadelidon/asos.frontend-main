@@ -1,0 +1,116 @@
+.Frame185
+{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.UsersDiv
+{
+    width: 100%;
+    height: max-content;
+    align-items: center;
+}
+
+.UsersDiv p
+{
+    text-align: center;
+    color: #000;
+    font-family: "Marbley Free", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.CustumersDiv
+{
+    display: flex;
+    padding: 20px 25px;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 100%;
+    height: 85px;
+    flex-direction: row;
+    border-radius: 2px;
+    border: 2px solid #707070;
+    gap: 20px;
+}
+.ProductsDiv
+{
+    display: flex;
+    padding: 20px 25px;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 100%;
+    height: max-content;
+    flex-direction: row;
+    border-radius: 2px;
+    border: 2px solid #707070;
+    gap: 20px;
+}
+
+.CustumersDiv img
+{
+    width: 50px;
+    height: max-content;
+    object-fit: contain;
+}
+
+.Name-SecondName
+{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Name-SecondName p
+{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-transform: none;
+}
+
+.Role-Div
+{
+    height: 100%;
+   width: max-content;
+}
+
+.Role-Div p,
+.Phone-P{
+    margin-top: 15px;
+}
+
+.CustumersDiv p
+{
+    text-align: center;
+    color: #000;
+    font-family: "Marbley Free", sans-serif;
+    font-size: 18px;
+}
+
+.class
+{
+    margin-top: 10px;
+}
+
+.Buttons-Div
+{
+    height: 100%;
+    width: max-content;
+}
+
+.plagins
+{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+

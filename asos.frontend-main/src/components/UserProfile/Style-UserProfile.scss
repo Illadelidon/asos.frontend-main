@@ -1,0 +1,298 @@
+$primary-font-family: "Outfit", sans-serif;
+
+body
+{
+    background-color: #F5F5F5; /* Колір фону */
+}
+
+.header
+{
+    height:100px;
+    width:1740px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $primary-font-family;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 28px;
+}
+.centered-div {
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    width: 100%; /* Забезпечує, що div займає всю ширину сторінки */
+
+}
+.container{
+    position: relative;
+    max-width: 1920px;
+}
+.logo-img{
+    width: 89px;
+    height: 71px;
+}
+.img-div{
+    width: 540px;
+    height: 190px;
+    border: 2px solid #000;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-bottom: 44px;
+    padding-left: 41px;
+    padding-top: 39px;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+.image {
+    max-width: 150px;
+    height: auto;
+}
+.image-container
+{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #C8F954;
+    cursor: pointer;
+}
+.image-label
+{
+
+    display: inline-block;
+    background-color:  #C8F954;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.placeholder {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.text-hi{
+    color:grey;
+    font-family: $primary-font-family;
+    font-size: 24px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    //font-weight: bold;
+    font-weight: 300;
+
+}
+.text-name{
+    font-family: $primary-font-family;
+    font-size: 24px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 550;
+
+}
+.divtext-sidebar{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+.edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-block{
+    width: 540px;
+    height: 495px;
+    border: 2px solid #000;
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.button-in-block{
+    width: 540px;
+    height: 55px;
+    font-family: $primary-font-family;
+    solid-color: #0D0D0D;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    cursor: pointer;
+    padding-left: 100px;
+    padding-top: 15px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    text-transform: capitalize;
+
+}
+.button-in-block p {
+    margin: 0 0 0 8px; /* Додає відступ між іконкою та текстом */
+}
+.sign-out-button p{
+    margin: 0 0 0 8px;
+}
+.button-in-block:hover {
+    background-color: #C8F954
+}
+.sign-out-button{
+    width: 540px;
+    height: 55px;
+    border: 2px solid #000;
+    font-family: $primary-font-family;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-left: 100px;
+    padding-top: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+
+}
+.sign-out-button:hover {
+    background-color: #C8F954
+}
+h2{
+    font-size: 48px;
+
+}
+.main-container {
+    display: flex;
+
+}
+
+.blue-text{
+    color: #2E38A1;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+}
+.containerChange {
+    margin-left: 100px;
+
+    width: 888px;
+    margin-top: 150px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.input-group {
+    flex: 1;
+    margin-right: 10px;
+
+}
+.input-group:last-child {
+    margin-right: 0;
+
+}
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 428px;
+    height: 72px;
+    font-size: 18px;
+}
+.save-button{
+
+    width: 269px;
+    height: 70px;
+    /* Auto layout */
+
+    border: 2px solid rgb(13, 13, 13);
+    border-radius: 50px;
+
+    box-shadow: 4px 8px 0px 0px rgb(0, 0, 0);
+    background: rgb(200, 249, 84);
+
+    color: rgb(13, 13, 13);
+    font-family: $primary-font-family;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+p
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.input.small {
+
+    margin-left: 10px;
+    width: 200px;
+}
+.margin10{
+    margin-left: 10px;
+}
+
+.widthdiv{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex: 2;
+}
+.widthdiv .ant-form-item {
+    flex: 1 1 calc(50% - 16px); /* 50% ширини мінус відступ */
+}
+.img-upload-container{
+    flex: 1; /* Цей контейнер займає 1/3 ширини */
+    display: flex;
+    justify-content: flex-start; /* Вирівнювання зображень вліво */
+}
+

@@ -1,0 +1,311 @@
+.centered-div
+{
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    width: 100%; /* Забезпечує, що div займає всю ширину сторінки */
+}
+
+.new-container
+{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: max-content;
+}
+
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.div-with-text h2
+{
+    color: #000;
+    font-family: Marbley Free,  sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Frame161
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1115px;
+    height: max-content;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Order-number
+{
+    color:  #0D0D0D;
+    font-family: Outfit,  sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Special-Wrapper
+{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.Order-Img
+{
+    width: max-content;
+    height: max-content;
+    position: relative; /* Контейнер із відносним позиціонуванням */
+    display: flex;
+    justify-content: center; /* Вирівнюємо елементи по центру контейнера */
+    align-items: center;
+}
+
+.Frame108-3
+{
+    position: relative; /* Відносне позиціонування, щоб елементи не виходили за межі контейнера */
+    width: 200px;
+    height: 250px;
+    z-index: 0; /* Базове значення для всіх зображень */
+}
+
+.Frame109-3
+{
+    position: relative; /* Відносне позиціонування, щоб елементи не виходили за межі контейнера */
+    width: 200px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: -40px; /* Негативний відступ для створення накладання між div */
+    z-index: 0; /* Базове значення для всіх зображень */
+}
+
+.Frame110-3
+{
+    position: relative; /* Відносне позиціонування, щоб елементи не виходили за межі контейнера */
+    width: 200px;
+    height: 250px;
+    margin-top: 130px;
+    margin-left: -40px; /* Негативний відступ для створення накладання між div */
+    z-index: 0; /* Базове значення для всіх зображень */
+}
+
+.Frame108-3
+{
+    z-index: 3; /* Найвищий індекс - перше зображення зверху */
+}
+
+.Frame109-3
+{
+    z-index: 2; /* Середнє зображення накладається під перше */
+}
+
+.Frame110-3
+{
+    z-index: 1; /* Останнє зображення накладається під всі */
+}
+
+
+.Frame108-3 img, .Frame109-3 img, .Frame110-3 img {
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+    border: 2px solid #707070;
+    background: lightgoldenrodyellow 50% / cover no-repeat;
+    /* decorative shadows/green */
+    box-shadow: 4px 8px 0px 0px #C8F954;
+    object-fit: cover;
+}
+
+.Frame108-2
+{
+    position: relative; /* Відносне позиціонування, щоб елементи не виходили за межі контейнера */
+    width: 200px;
+    height: 250px;
+    z-index: 0; /* Базове значення для всіх зображень */
+}
+
+.Frame109-2
+{
+    position: relative; /* Відносне позиціонування, щоб елементи не виходили за межі контейнера */
+    width: 200px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 10px; /* Негативний відступ для створення накладання між div */
+    z-index: 0; /* Базове значення для всіх зображень */
+}
+
+.Frame108-2
+{
+    z-index: 3; /* Найвищий індекс - перше зображення зверху */
+}
+
+.Frame109-2
+{
+    z-index: 2; /* Середнє зображення накладається під перше */
+}
+
+.Frame108-2 img, .Frame109-2 img
+{
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+    border: 2px solid #707070;
+    background: lightgray 50% / cover no-repeat;
+    /* decorative shadows/green */
+    box-shadow: 4px 8px 0px 0px #C8F954;
+}
+
+.Frame108-1
+{
+    position: relative; /* Відносне позиціонування, щоб елементи не виходили за межі контейнера */
+    width: 200px;
+    height: 250px;
+    z-index: 0; /* Базове значення для всіх зображень */
+}
+
+.Frame108-1 img
+{
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+    border: 2px solid #707070;
+    background: lightgray 50% / cover no-repeat;
+    /* decorative shadows/green */
+    box-shadow: 4px 8px 0px 0px #C8F954;
+}
+
+.Frame160
+{
+    margin-left: 30px;
+    display: flex;
+    width: 669px;
+    justify-content: space-between;
+
+}
+
+.Frame159
+{
+    display: flex;
+    width: 447px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.Frame158
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+    width: 100%;
+    height: max-content;
+}
+
+.Frame158 p
+{
+    color: #0D0D0D;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+.Frame157
+{
+    display: flex;
+    padding: 0px 11px 4px 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.Frame157 p
+{
+    color: #0D0D0D;
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.Link-Order-Datails
+{
+    margin-top: 100px;
+    color:  #0D0D0D;
+    font-family: Outfit,sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+
+    background: linear-gradient(90deg, #dc4242, #2c7586, #117e11);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorShift 3s linear infinite;
+}
+
+@keyframes colorShift {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+.Link-Order-Datails>:hover
+{
+    cursor: pointer;
+}
+
+.Total-PriceOrder
+{
+    margin-top: 20px;
+    color: #0D0D0D;
+    font-family: Outfit, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.div-with-empty
+{
+    margin: 100px auto;
+
+}
+
+.div-with-empty h2
+{
+
+    color: #4848b6;
+    font-family: Marbley Free,  sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}

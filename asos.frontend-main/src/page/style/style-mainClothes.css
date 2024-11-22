@@ -1,0 +1,1697 @@
+.MainPageclothes
+{
+    /* Main page clothes */
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+
+.Div-Img
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 800px; /* Можете налаштувати на 'auto', якщо бажаєте адаптивної висоти */
+    flex-direction: column;
+
+    background: url("../../../public/first-page/MainClothesImage.png") no-repeat;
+    background-size: cover; /* Покриває весь контейнер */
+    background-position: center;
+
+}
+
+.Frame292
+{
+    /* Frame 292 */
+    position: relative;
+    width: max-content;
+    height: 96px;
+    margin: 7% auto 0 auto;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.get-in
+{
+    width: 368px;
+    height: 96px;
+
+    color: #C8F954;
+
+    font-family: Outfit, sans-serif;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 104.167% */
+    text-transform: uppercase;
+}
+
+.gor-
+{
+    width: 259px;
+    height: 100%;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color: #C8F954;
+
+    font-family: Outfit, sans-serif;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 104.167% */
+    text-transform: uppercase;
+}
+
+.geous
+{
+
+    width: max-content;
+    height: 100%;
+    /* Auto layout */
+    margin-left: 350px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    color:  #C8F954;
+
+    font-family: Outfit, sans-serif;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 104.167% */
+    text-transform: uppercase;
+}
+
+.Frame293
+{
+    /* Frame 293 */
+    position: relative;
+    width: max-content;
+    height: max-content;
+    margin: 3% auto 0 20%;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Frame293>:nth-child(1)
+{
+    color: #C8F954;
+    font-family: Outfit, sans-serif;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 104.167% */
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+.Frame293>:nth-child(2)
+{
+    color: #C8F954;
+
+    font-family: "Outfit", sans-serif;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 104.167% */
+    text-transform: uppercase;
+    margin-left: 500px;
+}
+
+.shopping
+{
+    /* shopping! (Stroke) */
+    position: static;
+    width: 1000px;
+    height: 205px;
+    margin: 70px auto 50px auto;
+
+    display: flex;
+}
+
+.Frame4
+{
+    /* Frame 4 */
+    position: static;
+    width: 315px;
+    height: 65px;
+    margin: 0 auto;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid rgb(13, 13, 13);
+    background: white;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.Frame4:hover
+{
+    background: #4848b6;
+    cursor: pointer;
+    color: white;
+}
+
+.Frame434
+{
+
+    position: relative;
+    margin: 100px auto 0 auto;
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Frame302
+{
+    position: relative;
+    width: 100%;
+    height: 32px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    align-self: stretch;
+}
+
+.NewCollection
+{
+    /* new collection: */
+    position: relative;
+    width: max-content;
+    height: 100%;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.AfterMidnight
+{
+    /* after midnight */
+    position: relative;
+    width: max-content;
+    height: 55px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+
+    color: rgb(13, 13, 13);
+    font-family:"Outfit", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.AfterMidnight:hover
+{
+    color: #C8F954;
+    text-decoration: underline;
+}
+
+.Frame318
+{
+    margin-top: 50px;
+    position: static;
+    width: 100%;
+    height: 90%;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    gap: 50px;
+}
+
+.Frame317
+{
+    position: relative;
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Frame215
+{
+    /* Frame 215 */
+    position: relative;
+    width: 30%;
+    height: 740px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+    gap: 20px;
+}
+
+.Frame208 {
+    /* Frame 208 */
+    position: relative; /* Щоб кнопка могла розташовуватися відносно контейнера */
+    width: 100%;
+    height: 70%;
+    display: block; /* Можна залишити display: block для збереження контейнера */
+}
+
+.Rectangle16 {
+    /* Rectangle 16 */
+    position: relative; /* Залишаємо в нормальному потоці */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Покриває весь контейнер без викривлення */
+    border-radius: 4px;
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 4px 8px 0px 0px rgb(200, 249, 84);
+    z-index: 0; /* Позаду кнопки */
+}
+
+.favorite {
+    /* favorite */
+    position: absolute; /* Абсолютне позиціонування кнопки */
+    top: 12px; /* Відступ зверху */
+    left: 15px; /* Відступ справа */
+    width: 36px;
+    height: 36px;
+    z-index: 1; /* Вище за зображення */
+
+    border-radius: 0.75px;
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+
+#star1 {
+    stroke: black;
+    cursor: pointer;
+}
+
+.filled2
+{
+   fill: none;
+}
+
+.filled {
+    fill: #FFD700;
+    stroke: #FFD700;
+}
+
+#star1:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame213
+{
+    /* Frame 213 */
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+.Frame220
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.Frame207
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Frame206
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+
+    position: static;
+    width: 100%;
+    height: 72px;
+
+    justify-content: flex-start;
+}
+
+.Frame206>:nth-child(1)
+{
+    color: black;
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: left;
+    line-height: 30px;
+}
+
+.Frame206>:nth-child(2)
+{
+    color: #707070;
+    font-family: "Outfit",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Special-Container
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Special-Container span
+{
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame70
+{
+    position: relative;
+    width: 84px;
+    height: 84px;
+}
+
+.Frame70:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame214
+{
+    /* Frame 214 */
+    position: absolute;
+    width: 448px;
+    height: 700px;
+    left: 536px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 30px;
+}
+
+.Frame211
+{
+    /* Frame 211 */
+    position: static;
+    width: 448px;
+    height: 509px;
+    /* Inside Auto Layout */
+    flex: none;
+
+}
+
+.favorite2
+{
+    /* favorite */
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 30px;
+    top: 20px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+
+}
+
+#star2:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame212-3
+{
+    /* Frame 213 */
+    position: static;
+    width: 448px;
+    height: max-content;
+    /* Inside Auto Layout */
+
+    margin-top: 20px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.Frame210
+{
+    /* Frame 220 */
+    position: static;
+    width: 457px;
+    height: max-content;
+
+    gap: 38px;
+
+    display: flex;
+}
+
+.Frame70-2
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 360px;
+    top: 610px;
+}
+
+.Frame70-2:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame316
+{
+    /* Frame 316 */
+    position: relative;
+    width: 30%;
+    height: 740px;
+}
+
+.position
+{
+    width: 100%;
+    height: 70%;
+}
+
+.foto3
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Men
+{
+    position: absolute;
+    width: 175.96px;
+    height: 250px;
+    left: 20px;
+    right: 252.04px;
+    top: 15px;
+    bottom: 14.91px;
+}
+
+.Frame431
+{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.ShowAll
+{
+    margin-top: 15px;
+}
+
+.ShowAll>:nth-child(1)
+{
+    color: rgb(13, 13, 13);
+    font-family: Outfit,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Frame70-3
+{
+    position: relative;
+    width: 84px;
+    height: 84px;
+    margin-top: -10px;
+}
+
+.Frame70-3:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame433
+{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Frame305
+{
+    position: relative;
+    width: 30%;
+    height: 740px;
+}
+
+.RectangleWoman
+{
+    width: 100%;
+    height: 70%;
+}
+
+.ImageRectangleWoman
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Women-Stroke
+{
+    position: absolute;
+    width: 97px;
+    height: 480px;
+    left: 75%;
+    top: 3%;
+}
+
+.Frame432
+{
+    position:static;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Frame432>:nth-child(1)
+{
+    margin-top: 30px;
+    color: rgb(13, 13, 13);
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Frame432>:nth-child(2):hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+    cursor: pointer;
+}
+
+.Frame306
+{
+    /* Frame 306 */
+    position: absolute;
+    width: 448px;
+    height: 700px;
+    left: 536px;
+    top: 0;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Frame211
+{
+    /* Frame 211 */
+    position: static;
+    width: 448px;
+    height: 509px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.foto4
+{
+    width: 448px;
+    object-fit:cover;
+    height: 509px;
+    border-radius: 4px;
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 4px 8px 0px 0px rgb(200, 249, 84);
+}
+
+.favorite3
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 30px;
+    top: 30px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+#star3:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame212-2
+{
+    display: flex;
+    margin-top: 20px;
+    gap: 38px;
+    align-self: stretch;
+    flex-direction: row;
+}
+
+.Frame210-3
+{
+    /* Frame 210 */
+    position: static;
+    width: 90%;
+    height: 124px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.Frame210-3>:nth-child(1)
+{
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame311
+{
+     /* Frame 311 */
+     position: relative;
+     width: 100%;
+     height: 785px;
+     display: flex; /* Використовуємо flex для допомоги в адаптації */
+     justify-content: center;
+     align-items: center;
+     overflow: hidden; /* Щоб елементи не виходили за межі */
+ }
+
+.Frame311>:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Забезпечує повне покриття зображенням */
+}
+
+.Frame311>:nth-child(2) {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 0; /* Використовуємо відсотки */
+    top: 43%; /* Відсотки для адаптивності */
+    transform: rotate(-55.85deg);
+
+    color: #C8F954;
+    font-family: Outfit,sans-serif;
+    font-size: 6vw; /* Зробимо шрифт масштабованим */
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame311>:nth-child(3) {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 60%; /* Використовуємо відсотки */
+    top: 35%; /* Відсотки для адаптивності */
+    transform: rotate(23.76deg);
+
+    color: rgb(200, 249, 84);
+    font-family: Outfit,sans-serif;
+    font-size: 6vw; /* Масштабований шрифт */
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Frame310 {
+    position: absolute;
+    width: 25%; /* Відсоткове значення для ширини */
+    height: auto;
+    left: 50%; /* Центруємо по горизонталі */
+    top: 75%; /* Позиція по вертикалі */
+    transform: translateX(-50%); /* Центруємо кнопки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    border: 5px solid rgb(13, 13, 13);
+    background: rgb(245, 245, 245);
+    color: rgb(13, 13, 13);
+    font-family: "Outfit",sans-serif;
+    font-size: 2vw; /* Масштабований шрифт */
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.Frame210-3>:nth-child(2)
+{
+    color: #707070;
+    font-family: "Outfit",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame210-3>:nth-child(3)
+{
+    margin-top: 30px;
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame70-4
+{
+    /* Frame 70 */
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 376px;
+    top: 600px;
+}
+
+.Frame70-4:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame70-6
+{
+    /* Frame 70 */
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 376px;
+    top: 650px;
+}
+
+.Frame70-6:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame304
+{
+    /* Frame 304 */
+    position: absolute;
+    width: 448px;
+    height: 672px;
+    left: 1072px;
+    top: 0;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Frame310
+{
+    position: absolute;
+    width: 25%; /* Відсоткове значення для ширини */
+    height: auto;
+    left: 50%; /* Центруємо по горизонталі */
+    top: 75%; /* Позиція по вертикалі */
+    transform: translateX(-50%); /* Центруємо кнопки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    border: 5px solid rgb(13, 13, 13);
+    background: rgb(245, 245, 245);
+    color: rgb(13, 13, 13);
+    font-family: "Outfit",sans-serif;
+    font-size: 2vw; /* Масштабований шрифт */
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.Frame310:hover
+{
+    background-color: #2E38A1;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+.Frame334
+{
+    position: relative;
+    margin: 50px auto 0 auto;
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Frame333
+{
+    position: relative;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SpecialConteiner1
+{
+    position: relative;
+    width: max-content;
+    height: 100%;
+}
+
+.SellingFast
+{
+    font-family: Outfit,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px; /* 312.5% */
+    text-transform: uppercase;
+}
+
+.SpecialConteiner
+{
+    position: relative;
+    width: max-content;
+    height: 100%;
+}
+
+.Women
+{
+    color:black;
+    font-family: Outfit,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.Man
+{
+    color: #707070;
+    font-family: Outfit,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.Frame332
+{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.Frame331
+{
+    /* Frame 331 */
+    position: static;
+    width: 1520px;
+    height: 1316px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Frame329
+{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.Frame208-2
+{
+    position: static;
+    width: 448px;
+    height: 509px;
+}
+
+.Rectangle208
+{
+    position: static;
+    width: 100%;
+    height: 100%;
+
+    object-fit:cover;
+    border-radius: 4px;
+
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 4px 8px 0px 0px rgb(200, 249, 84);
+}
+
+.favorite7
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 30px;
+    top: 120px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+
+#star7:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.favorite8
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 550px;
+    top: 120px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+
+#star8:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.favorite9
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1050px;
+    top: 120px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+
+#star9:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame213-2
+{
+    /* Frame 213 */
+    position: static;
+    width: 448px;
+    height: 180px;
+    /* Inside Auto Layout */
+    flex: none;
+
+    align-self: stretch;
+}
+
+.Frame207-2
+{
+    /* Frame 207 */
+    position: static;
+    width: 90%;
+    height: 100%;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Frame207-2>:nth-child(1)
+{
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.Frame207-2>:nth-child(2)
+{
+margin-top: 10px;
+    color: #707070;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.Frame207-2>:nth-child(3)
+{
+    margin-top: 15px;
+    color: rgb(13, 13, 13);
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Frame70-4
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 360px;
+    top: 730px;
+}
+
+.Frame70-4:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+
+
+.Frame207-3 {
+    /* Frame 207 */
+    position: static;
+    width: 90%;
+    height: 100%;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.Frame207-3>:nth-child(1)
+{
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.Frame207-3>:nth-child(2)
+{
+    margin-top: 10px;
+    color: #707070;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.Frame207-3>:nth-child(3)
+{
+    margin-top: 15px;
+    color: rgb(13, 13, 13);
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.Frame70-5
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 880px;
+    top: 730px;
+}
+
+.Frame70-5:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame70-7
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 1400px;
+    top: 730px;
+}
+
+.Frame70-7:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame330
+{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Frame70-8
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 370px;
+    top: 1430px;
+}
+
+.Frame70-8:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+
+.Frame70-9
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 370px;
+    top: 630px;
+}
+
+.Frame70-9:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.favorite10
+{
+    /* favorite */
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 30px;
+    top: 870px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+
+}
+
+#star10:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+
+
+.Frame214-5
+{
+    position: static;
+    width: 448px;
+    height: 700px;
+    left: 536px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 30px;
+}
+
+.favorite12
+{
+    /* favorite */
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 550px;
+    top: 870px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+
+}
+
+#star12:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame70-11
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 870px;
+    top: 1430px;
+}
+
+.Frame70-11:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.favorite13
+{
+    /* favorite */
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1050px;
+    top: 870px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+
+}
+
+#star13:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Frame70-13
+{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 1390px;
+    top: 1430px;
+}
+
+.Frame70-13:hover path
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.Button_action
+{
+    /* Button_action */
+    position: static;
+    width: 269px;
+    height: 70px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid rgb(13, 13, 13);
+    border-radius: 50px;
+
+    box-shadow: 4px 8px 0px 0px rgb(0, 0, 0);
+    background: rgb(200, 249, 84);
+
+    margin: 100px auto;
+
+    color: rgb(13, 13, 13);
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.Button_action:hover
+{
+    color: white;
+    background:#2E38A1;
+}
+
+.footer
+{
+    position: relative;
+    width: 100%;
+    height: 698px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Frame294 {
+    width: 100%;
+    height: 156px;
+    background-color:  #C8F954;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.LogoFull
+{
+    margin-top: 20px;
+    margin-left: 200px;
+    position: static;
+    height: 80%;
+    width: 263.23px;
+    display: flex;
+    flex-direction: row;
+}
+
+.LogoDog
+{
+    position: static;
+    width: 40%;
+    height: 95%;
+    align-items: center;
+}
+
+.LogoDog>:nth-child(1)
+{
+    width: 89.382px;
+    height: 71.275px;
+    margin: 20px auto;
+}
+
+.TextLogo>:nth-child(1)
+{
+    margin: 30% auto;
+}
+
+.Frame283
+{
+    position: static;
+    width: 480px;
+    height: 100px;
+    gap: 30px;
+
+    margin: 30px 0 0 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Button_socials
+{
+    /* Button_socials (Frame 295) */
+    position: static;
+    width: 72px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 13, 13);
+    border-radius: 50px;
+
+    box-shadow: 2px 4px 0px 0px rgb(0, 0, 0);
+    background: rgb(245, 245, 245);
+}
+
+.Frame290
+{
+    /* Frame 290 (Frame 295) */
+    position: static;
+    width: 1377px;
+    height: 285px;
+
+    /* Auto layout */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* три столбца одинаковой ширины */
+    grid-template-rows: auto; /* высота строк будет автоматически подстраиваться */
+    gap: 30px; /* отступы между элементами сетки */
+
+    margin: 50px auto 0 auto;
+}
+
+.Frame284
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.Frame284>:nth-child(1)
+{
+    color:  #C8F954;
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Special-Link
+{
+    color: #C8F954;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Special-Link:hover
+{
+    color: red;
+}
+
+.Frame286
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.Frame286 span
+{
+    color:  #C8F954;
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Frame287
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.Frame287 span
+{
+    color:  #C8F954;
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,339 @@
+.Text-Top
+{
+    padding-top: 200px;
+}
+
+
+
+.main-div-with-photo
+{
+
+
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 1000px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+
+.main-div-with-photo img
+{
+    width: 400px;
+    height: 500px;
+    border-radius: 0px 0px 2px 0px;
+    border-left: 2px solid #707070;
+    border-right: 2px solid #707070;
+    border-top: 1px solid #707070;
+    border-bottom: 2px solid #707070;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.zoom-image {
+    width: 100px; /* Початковий розмір зображення */
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Плавний перехід збільшення */
+}
+
+/* Ефект при наведенні */
+.zoom-image:hover {
+    transform: scale(1.5); /* Збільшення зображення до 150% */
+    z-index: 2; /* Щоб збільшене зображення було вище інших елементів */
+}
+
+.div-with-info
+{
+    height: 642px;
+    width: 546px;
+    border: 2px solid rgb(13, 13, 13);
+}
+
+
+.section
+{
+    margin:0 auto;
+    display: flex; /* Встановлюємо Flexbox на секцію */
+    flex-direction: column;
+    justify-content: start; /* Розташовуємо елементи на всю ширину контейнера */
+    align-items: flex-start; /* Вирівнюємо елементи по верхньому краю */
+    background: #F5F5F5;
+}
+
+
+
+.text-above-carousel
+{
+
+   margin: 100px auto 0 auto;
+    width: max-content;
+    height: 80px;
+}
+
+.carousel-title
+{
+    color: grey;
+    height: 70px;
+    width: 100%;
+    font-size: 28px; /* Розмір шрифту */
+    font-weight: bold; /* Жирний текст */
+    margin-bottom: 20px; /* Відступ від тексту до каруселі */
+}
+
+.Section-2
+{
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.Header-layout
+{
+    width: 100%;
+    height: max-content;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-cart
+{
+    width: 70%;
+    height: max-content;
+    margin-left: 40px;
+}
+
+.button-Cart
+{
+    width: 20%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.favorite35
+{
+    /* favorite */
+
+
+    width: 36px;
+    height: 36px;
+    border-radius: 0.75px;
+
+    fill: none;
+    stroke: #0D0D0D;
+    stroke-width: 1.5;
+    transition: fill 0.3s, stroke 0.3s;
+
+}
+
+#star35:hover
+{
+    fill: #FFD700; /* Золотий колір при наведенні */
+    stroke: #FFD700;
+}
+
+.filled {
+    fill: #FFD700;
+    stroke: #FFD700;
+}
+
+.SVG-Basket
+{
+    margin: 0 auto;
+}
+
+.Text-Icon
+{
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    text-align: center;
+    background: linear-gradient(90deg, #dcd158, #d02c26, #379113);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorShift 3s linear infinite;
+    text-decoration: none;
+}
+
+@keyframes colorShift {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+.h1-text
+{
+    font-size: 24px; /* Задайте розмір шрифту */
+    position: relative;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-price{
+    padding-left: 30px;
+    font-size: 26px;
+
+}
+.dropdown-button{
+    padding-left: 30px;
+
+    width: 140px;
+    height: 48px;
+}
+.div-with-dropbutton{
+    display: flex; /* Встановлюємо контейнеру Flexbox */
+    margin: 30px 20px 0 20px;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.box-2
+{
+    display: flex;
+    flex-direction: column; /* Встановлює вертикальне розташування елементів */
+
+}
+
+.P-Color
+{
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Size-option
+{
+    display: flex;
+    width: 140px;
+    height: 48px;
+
+
+    border-radius: 2px;
+    border: 2px solid #707070;
+    background: #FFF;
+}
+
+.box-1-p-last {
+    text-align: center;
+    font-size: 28px; /* Збільшено розмір тексту для параграфа */
+    font-weight: bold; /* Додатково можна зробити текст жирним */
+    margin-bottom: 14px; /* Відступ від параграфа до Select */
+}
+
+.Span-Color
+{
+    display: flex;
+    width: 140px;
+    height: 48px;
+    padding: 20px 15px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 2px;
+    border: 2px solid #707070;
+    background: #FFF;
+}
+
+.amount-button{
+    padding-left: 40px;
+    width: 110px;
+    height: 48px;
+    font-size:20px ;
+    margin-left: 30px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container>:hover
+{
+    background-color: #4848b6;
+    color: #F5F5F5;
+}
+
+.text-delivery{
+    font-size: 14px;
+    color: grey;
+    margin-left: 10px;
+}
+.div-delivery{
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.main-div-delivery{
+    margin-top: 50px;
+}
+.last-text-delivery
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.div-accord
+{
+    width: 546px;
+    margin-top: 15px;
+
+
+    color: #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100px; /* 500% */
+    text-transform: uppercase;
+}
+.div-accord-margin{
+    margin-top: 30px;
+}
+.text-info-about-prod{
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.box-with-sizes{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.text-size{
+    font-size: 28px;
+}
+
+.footer-3
+{
+        width: 100%;
+        height: 698px;
+        left: 0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+}
+

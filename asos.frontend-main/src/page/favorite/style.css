@@ -1,0 +1,206 @@
+.basic-section
+{
+    width: 100%;
+    height: max-content;
+    background:  #F5F5F5;
+}
+
+.Frame456
+{
+    display: flex;
+    width: 1397px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 88px auto 10px auto;
+}
+
+.Frame456 p{
+    color: #000;
+    font-family: "Marbley Free", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Ractangel35
+{
+    width: 1397px;
+    height: max-content;
+    flex-shrink: 0;
+    margin: 0 auto;
+
+    border-radius: 2px;
+    border: 2px solid  #707070;
+    background:  #F5F5F5;
+}
+
+.CartBasket
+{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 164px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.CartUnder
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.cartImage
+{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.FrameInformation
+{
+    display: flex;
+    width: 441px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.Name-Product
+{
+    width: 100%;
+    height: max-content;
+}
+
+.Name-Product
+{
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.CartUnder span
+{
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Price-Basket
+{
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Delete-Button:hover svg path {
+    stroke: #FF0000; /* Червоний при наведенні */
+}
+
+.AddToBasket
+{
+    margin: 70px 0 0 0;
+    width: 269px;
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 50px;
+    border: 2px solid  #0D0D0D;
+    background: #C8F954;
+
+    /* shadows/buttons */
+    box-shadow: 4px 8px 0px 0px #000;
+
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.AddToBasket2
+{
+    margin: 70px 0 0 0;
+    width: 269px;
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 50px;
+    border: 2px solid  #0D0D0D;
+    background: #5ff954;
+
+    /* shadows/buttons */
+    box-shadow: 4px 8px 0px 0px #000;
+
+    color:  #0D0D0D;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.AddToBasket:hover,
+.AddToBasket2:hover
+{
+    background: #4848b6;
+    color: #F5F5F5;
+}
+
+.Favorite-Clear
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 80px;
+    background: linear-gradient(90deg, #f0c27b, #4b1248, #ff77a9);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorShift 3s linear infinite;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@keyframes colorShift {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+.footer-2
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}

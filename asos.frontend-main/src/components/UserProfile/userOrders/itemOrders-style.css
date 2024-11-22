@@ -1,0 +1,73 @@
+.Section-Cart-OrderItem
+{
+    display: flex;
+    height: max-content;
+    width: 60%;
+    flex-direction: column;
+}
+
+.Rectangle1 {
+    position: static;
+    width: 200px;
+    height: 250px;
+
+    object-fit:cover;
+    border-radius: 4px;
+
+    border: 2px solid rgb(112, 112, 112);
+    box-shadow: 4px 8px 0px 0px rgb(200, 249, 84);
+
+}
+.orderBox{
+    margin-left: 100px;
+    width: 1089px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start; ;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+.pricetext
+{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: auto;
+    align-self: flex-start;
+}
+.orderDetails
+{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.orderDetails p
+{
+    margin-top: 20px;
+}
+
+h3
+{
+    font-size: 28px;
+}
+.texticon{
+
+    font-size: 18px;
+}
+.priceAndIcon {
+
+    display: flex;
+    justify-content: space-between; /* Розташовує ціну та іконку по різним сторонам */
+    align-items: center;
+    margin-top: auto; /* Розміщує блок внизу контейнера */
+}
+.iconWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

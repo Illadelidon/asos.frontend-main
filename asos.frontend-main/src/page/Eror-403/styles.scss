@@ -1,0 +1,54 @@
+.forbidden
+{
+  background: url("../../../public/Clothes/eror-foto.jpeg") no-repeat center center;
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.intro__headline
+{
+
+  font-size: 200px;
+  color: red;
+  margin: 0;
+}
+
+.intro__subhead {
+  text-align: center;
+  font-size: 24px;
+  color: yellow;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.magic-light {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 80px;
+  background: linear-gradient(90deg, #ff0066, #00ccff, #66ff66);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorShift 3s linear infinite;
+}
+
+@keyframes colorShift {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+

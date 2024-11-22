@@ -1,0 +1,488 @@
+.Cart-Text
+{
+    margin: 100px auto 0 300px ;
+    width: max-content;
+    height: max-content;
+}
+
+.Cart-Text span
+{
+    color: #000;
+    font-family: "Marbley Free",sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Basick-section
+{
+    margin: 0 auto;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Cart-Basket
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    border: 2px solid #707070;
+    background:  #F5F5F5;
+    width: max-content;
+    height: max-content;
+    margin-bottom: 100px;
+}
+
+.CartBasketItem
+{
+    display: inline-flex;
+    align-items: center;
+    gap: 42px;
+    margin: 40px 50px 40px 50px;
+}
+
+.Frame92
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 39px;
+}
+
+.FrameImage
+{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FrameImage img
+{
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px solid #707070;
+    /* decorative shadows/green */
+    box-shadow: 4px 8px 0px 0px #C8F954;
+    object-fit: contain;
+}
+
+.Frame91-3
+{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    gap: 15px;
+}
+
+.Name-Item
+{
+
+    color:  #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Brand-Item
+{
+    color:  #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Brand-Item span
+{
+    color:  #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+.Price-Item
+{
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.Frame446
+{
+    display: flex;
+    width: 492px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.Frame445
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.Cart-Total
+{
+    display: flex;
+    width: 472px;
+    height: 503px;
+    padding: 40px 48px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 2px;
+    border: 2px solid #707070;
+    background: #F5F5F5;
+}
+
+.Frame444
+{
+    display: flex;
+    width: 375px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+.Frame443
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.Frame435
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.Frame435>:nth-child(1)
+{
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame435>:nth-child(2)
+{
+    color:  #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame442
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.Frame437
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.Frame436
+{
+    display: flex;
+    height: 23px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.Frame436 span
+{
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame365
+{
+    display: flex;
+    height: 48px;
+    padding: 20px 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+    border-radius: 2px;
+    border: 2px solid #707070;
+    background: #FFF;
+}
+
+.Frame365 p
+{
+    color: #707070;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px; /* 500% */
+}
+
+.Frame441
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.Frame441 span
+{
+    color: #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Frame440
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.Frame438
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.CreditCart1
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/mastercart.png') black 50% / contain no-repeat;
+}
+
+.CreditCart2
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/visa.png') white 50% / contain no-repeat;
+}
+
+.CreditCart3
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/american.png') white 50% / contain no-repeat;
+}
+
+.CreditCart4
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/paypal.png') white 50% / contain no-repeat;
+}
+
+.Frame438-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.CreditCart5
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/discover.jpeg') white 50% / contain no-repeat;
+}
+
+
+.CreditCart6
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/klarna.png') #FFB3C7 50% / contain no-repeat;
+}
+
+.CreditCart7
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/VisaElectron.png') white 50% / contain no-repeat;
+}
+
+.CreditCart8
+{
+    width: 87px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #707070;
+    background: url('public/creditcart/maestro.png') black 50% / contain no-repeat;
+}
+
+.Got-Text
+{
+    color:  #707070;
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.Checkout
+{
+    display: flex;
+    width: 269px;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 50px;
+    border: 2px solid #0D0D0D;
+    background:  #C8F954;
+    /* shadows/buttons */
+    box-shadow: 4px 8px 0px 0px #000;
+
+    color:  #0D0D0D;
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Checkout:hover
+{
+background-color: #4848b6;
+    color: white;
+    cursor: pointer;
+}
+
+.Frame575
+{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 250px;
+    align-items: flex-end;
+    gap: 90px;
+}
+
+.castom
+{
+    text-align: center;
+}
+
+.hover-red
+{
+    margin-top: 10px;
+}
+
+.hover-red:hover svg path
+{
+    stroke: red;
+}
+
+.Order-Done
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 80px;
+    background: linear-gradient(90deg, #dcd158, #224b12, #7782ff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorShift 3s linear infinite;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@keyframes colorShift {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
